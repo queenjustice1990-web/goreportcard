@@ -1,5 +1,4 @@
 package bolt
-
 import (
 	"bytes"
 	"fmt"
