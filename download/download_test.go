@@ -1,7 +1,5 @@
 package download
-
 import "testing"
-
 func TestClean(t *testing.T) {
 	cases := []struct {
 		path string

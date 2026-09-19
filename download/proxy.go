@@ -1,5 +1,4 @@
 package download
-
 import (
 	"encoding/json"
 	"fmt"
@@ -10,15 +9,12 @@ import (
 	"path/filepath"
 	"strings"
 )
-
 const (
 	reposDir = "_repos/src"
 )
-
 type moduleVersion struct {
 	Version string
 }
-
 // ProxyClient is a client for the module proxy
 type ProxyClient struct {
 	URL string
